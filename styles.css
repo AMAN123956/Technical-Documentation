@@ -1,0 +1,53 @@
+body{
+    box-sizing: border-box;
+    overflow-x:hidden;
+    font-family: sans-serif;
+}
+html{
+    overflow-x: hidden;
+}
+hr{
+    width:250px;
+    font-weight: bolder;
+}
+.nav-link {
+    color:blue;
+}
+#html-img{
+    font-size:6rem;
+    color:orangered;
+}
+#Introduction{
+    background-color:lightgray;
+    padding:0px 20px;
+}
+p{
+margin-top:10px; 
+font-size:1.2rem;
+}
+.main-section{
+    margin-top:30px;
+}
+#navbar{
+
+        position: fixed; /* Make it stick/fixed */
+        top: -50px; /* Hide the navbar 50 px outside of the top view */
+       
+        transition: top 0.3s; /* Transition effect when sliding down (and up) */
+      
+}
+#code{
+    background-color: lightgray;
+}
+
+@media screen and (max-width:1000px){
+    #Introduction{
+       padding:0px 15px;
+    }
+    #navbar{
+        position:static;
+    }
+    p{
+        font-size:1rem;
+    }
+}
